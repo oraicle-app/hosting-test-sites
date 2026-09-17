@@ -1,4 +1,4 @@
-# Oraicle hosting canaries
+# Oraicle hosting test sites
 
 Three tiny static sites that Oraicle publishes on its own hosting, one folder each. An hourly check visits them from the outside: sites A and B must serve their own marker file and never each other's, and site S is kept suspended and must stay unreachable. If the check fails, Oraicle stops accepting new sites until it passes again.
 
